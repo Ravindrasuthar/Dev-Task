@@ -1,0 +1,220 @@
+
+body{
+    margin-top: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+
+button:hover{
+    cursor: pointer;
+}
+
+.main{
+    height: 812px;
+    width:375px;
+    background-color: #F7F8F9;
+    border: 2px solid #E5E5E5;  
+    position: relative;
+    overflow: hidden;
+}
+
+.main:hover{
+    border: 2px solid rgb(138, 138, 241);
+}
+
+.codeblock01{
+    margin-top: 549px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: translateX(0);
+    position: absolute;
+}
+
+.active01{
+    transform: translateX(-450px);
+    transition: transform .18s ease;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.btn{
+    height: 40px;
+    width: 335px;
+    margin-top: 10px ;
+    border-radius: 10px;
+    border:0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.register01{
+    background-color: #6C25FF;
+    color: white;
+}
+
+.login01{
+    background-color: #CEBAFB;
+    color: rgb(41, 39, 39);
+}
+
+.login01:hover{
+    background-color: #6C25FF;
+    color: white;
+    transition: color,background-color .5s ease-out;
+}
+
+.codeblock02{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: translateX(-450px);
+    position: absolute;
+}
+
+.active02{
+    transform: translateX(0);
+    transition: transform .18s ease;
+}
+
+.form02{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group{
+    width: 335px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-group label{
+    position: absolute;
+    font-family: sans-serif;
+    transform: translateY(-10px) translateX(10px);
+    background-color: #F7F8F9;
+    padding-right: 20px;
+    padding-left: 5px;
+    color: #844BFE;
+    font-size: 14px;
+}
+
+.form-group input{
+    height: 40px;
+    width: 335px;
+    border-radius: 10px; 
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 1px solid grey;
+    padding-left: 10px;
+    background-color: #F7F8F9;
+    
+}
+
+.login02{
+    color: white;
+    background-color: #CBCBCB;
+    margin-top: -2px;
+}
+
+.login02:hover{
+    background-color: #6C25FF;
+    transition: background-color .5s ease-out;
+}
+
+.codeblock03{
+    
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    transform: translateX(-450px);
+}
+
+.active03{
+    transform: translateX(0);
+    transition: transform .18s ease;
+}
+
+.form03{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.codeblock04{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    transform: translateX(-450px);
+}
+
+.active04{
+    transform: translateX(0);
+    transition: transform .18s ease;
+}
+
+.accsetting{
+    height: 68px;
+    width: 355px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: larger;
+    font-family: arial, sans-serif;
+    font-weight: 500;
+    background-color: white;
+    color: rgb(77, 75, 75);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+img{
+    height: 76px;
+    width: 76px;
+    border-radius: 50%;
+}
+
+.imgdetails p{
+   margin-bottom: 6px;
+   margin-top: 0;
+   font-family: arial, sans-serif;
+   color: rgb(77, 75, 75);
+}
+
+.username{
+    font-weight: bold;
+}
